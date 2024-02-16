@@ -5,6 +5,7 @@ import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
 # 0. Configure the page
 
 st.set_page_config(
