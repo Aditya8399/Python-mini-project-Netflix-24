@@ -114,7 +114,7 @@ st.header("Tivariate Analysis")
 col3 = st.selectbox("Select the first column for 3d plot", num_cols)
 col4 = st.selectbox("Select the second column for 3d plot", num_cols)
 col5 = st.selectbox("Select the third column for 3d plot", num_cols)
-fig_trivariate = px.scatter_3d(df, x=col3, y=col4, z=col5, title=f'{col3} vs {col4} vs {col5}', height=700)
+fig_trivariate = px.scatter_3d(df, x=col3, y=col4, z=col5, title=f'{col3} vs {col4} vs {col5}', height=600)
 st.plotly_chart(fig_trivariate, use_container_width=True)
 
 # About tab 
